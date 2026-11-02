@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lullwatch — Help &amp; Privacy</title>
+<meta name="description" content="Lullwatch turns two of your devices into a baby monitor that stays on your home Wi-Fi.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --ink:#0E1220; --deep:#090B15; --card:#171C2E; --line:rgba(255,255,255,.08); --lamp:#F2B66B; --live:#7FD1A8; --text:#EFECE5; --dim:rgba(239,236,229,.66); }
+  * { box-sizing: border-box; }
+  body { margin:0; background: radial-gradient(ellipse at 50% -10%, rgba(242,182,107,.14), transparent 55%), linear-gradient(var(--ink), var(--deep)); background-attachment: fixed; color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px 80px; }
+  header { display:flex; gap:18px; align-items:center; margin-bottom: 28px; }
+  header img { width:84px; height:84px; border-radius:20px; box-shadow: 0 10px 40px rgba(242,182,107,.25); }
+  h1 { font: 600 40px/1.1 "New York", ui-serif, Georgia, serif; margin:0; }
+  .tag { color: var(--dim); margin: 4px 0 0; }
+  h2 { font: 600 24px/1.2 "New York", ui-serif, Georgia, serif; margin: 44px 0 12px; }
+  h3 { font-size: 17px; margin: 22px 0 4px; }
+  p, li { color: var(--dim); }
+  strong { color: var(--text); }
+  a { color: var(--lamp); }
+  .card { background: var(--card); border:1px solid var(--line); border-radius: 18px; padding: 6px 22px 16px; margin-top: 14px; }
+  .pill { display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:600; color: var(--live); background: rgba(127,209,168,.12); padding:4px 12px; border-radius:99px; }
+  .pill::before { content:""; width:7px; height:7px; border-radius:50%; background: var(--live); }
+  footer { margin-top: 56px; font-size: 13px; color: rgba(239,236,229,.4); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="Lullwatch icon">
+    <div>
+      <h1>Lullwatch</h1>
+      <p class="tag">A baby monitor that never passes off an old picture as live.</p>
+    </div>
+  </header>
+
+  <span class="pill">Stays on your home Wi-Fi · No account · No cloud</span>
+
+  <h2>Getting started</h2>
+  <div class="card">
+    <h3>1. On the device for the nursery</h3>
+    <p>Open Lullwatch and choose <strong>In the nursery</strong>. An older iPhone or iPad works well. Keep it plugged in, about a meter from the crib and out of reach.</p>
+    <h3>2. On your own device</h3>
+    <p>Choose <strong>With me</strong> and scan the code on the nursery screen. You can also scan it with the iPhone Camera app. You only pair once.</p>
+    <h3>3. Leave Lullwatch open in the nursery</h3>
+    <p>The nursery screen dims itself. If Lullwatch is closed there, the picture stops, and your device will tell you so.</p>
+  </div>
+
+  <h2>Just one iPhone and an Apple Watch</h2>
+  <div class="card">
+    <p>Choose <strong>Just this iPhone and my Watch</strong> on the iPhone you leave in the nursery. It listens and posts a notification when it hears something. iOS sends notifications to your Apple Watch only while that iPhone is <strong>locked</strong>, so lock it after you tap Start. Use <strong>Send a test alert</strong> first to check it reaches your wrist. This mode is sound only.</p>
+  </div>
+
+  <h2>What the colors mean</h2>
+  <div class="card">
+    <p><strong>LIVE · 0.4 s</strong> shows how long ago the nursery last checked in. It updates several times a second.</p>
+    <p><strong>Picture stopped</strong> means the camera on the nursery device has paused, for example because Lullwatch was closed there. Sound may still be coming through. The old picture is blurred so it can't be mistaken for live.</p>
+    <p><strong>Red screen and alarm</strong> means the sound or the connection has stopped. Go and check on your baby. The red screen stays until the nursery is back.</p>
+  </div>
+
+  <h2>Troubleshooting</h2>
+  <div class="card">
+    <h3>The devices can't find each other</h3>
+    <p>Both must be on the same Wi-Fi network, and both need <strong>Local Network</strong> access (Settings › Privacy &amp; Security › Local Network › Lullwatch). Guest networks and some mesh or hotel networks block devices from seeing each other.</p>
+    <h3>I can't hear quiet sounds</h3>
+    <p>Turn your volume up, then raise <strong>Volume boost</strong> in Settings. The sound alert slider sets how loud it must get before you're alerted.</p>
+    <h3>The picture is dark</h3>
+    <p>Set <strong>Night view</strong> to On or Auto. A dim night light in the room helps a lot. You can also turn on <strong>Night light</strong>, which makes the nursery screen glow softly.</p>
+    <h3>Does it work away from home?</h3>
+    <p>No. Lullwatch only connects inside your home network. That's on purpose: nothing about your nursery ever goes to the internet.</p>
+  </div>
+
+  <h2>Important</h2>
+  <div class="card">
+    <p>Lullwatch is a convenience for parents. It is <strong>not a medical device</strong>, and it does not monitor breathing, movement or health. Wi-Fi, batteries and phones can fail. Never rely on it in place of checking on your child yourself, and always follow safe sleep guidance.</p>
+  </div>
+
+  <h2 id="privacy">Privacy Policy</h2>
+  <div class="card">
+    <p><strong>Lullwatch collects no data.</strong> There is no account, no sign-in, no analytics, no advertising, and no server.</p>
+    <h3>Camera and microphone</h3>
+    <p>Video and sound go directly from your nursery device to your paired devices over your local network. The connection is encrypted with a key that is created on your device and exists only inside the pairing code. Nothing is recorded or saved, and nothing is sent to us or anyone else.</p>
+    <h3>Local network</h3>
+    <p>Lullwatch uses your local network only to let your own devices find and talk to each other.</p>
+    <h3>Notifications</h3>
+    <p>Alerts are created on your device. They are not sent through any server.</p>
+    <h3>Stored on your device</h3>
+    <p>Only your settings and the pairing key, kept in your device's Keychain. Deleting the app removes them.</p>
+    <h3>Children</h3>
+    <p>Lullwatch is used by parents. It collects no information from anyone, including children.</p>
+    <p>Last updated November 3, 2026.</p>
+  </div>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Questions or problems? Email <a href="mailto:tajimaru1209@gmail.com?subject=Lullwatch%20Support">tajimaru1209@gmail.com</a>. Please include your device models and iOS versions.</p>
+  </div>
+
+  <footer>© 2026 Hiroaki Tajima</footer>
+</main>
+</body>
+</html>
